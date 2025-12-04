@@ -22,16 +22,7 @@ terraform {
   backend "s3" {}
 }
 
-# provider "aws" {
-#   region     = "us-east-1"
-#   alias      = "aws-hq"
-#   access_key = "AKIAYP7ZS6XE5VUE53SH"
-#   secret_key = "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"
-# }
-
 provider "aws" {
-  region     = "ap-southeast-1"
-  alias      = "aws-main"
-  access_key = "AKIAYP7ZS6XE5VUE53SH"
-  secret_key = "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"
+  region = "ap-southeast-1"
+  alias  = "aws-main"
 }

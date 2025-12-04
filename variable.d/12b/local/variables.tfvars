@@ -8,7 +8,7 @@ admin_users = ["josh.tran", "ken.nguyen", "dennis.le", "troy.vo"]
 
 domain_alias = ["static.nexdev.net"]
 
-##CORS Conf
+###CORS Conf
 cors_allowed_headers = [
   "Accept",
   "Access-Control-Allow-Origin",
